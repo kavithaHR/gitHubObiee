@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Partyvalidation]">
+  <listeners>
+    <listener class-name="IDDAutomation.listeners"/>
+    <listener class-name="baseclass.ExtentTestNGIReporterListener"/>
+  </listeners>
+  <test name="PROD_ORG(failed)">
+    <classes>
+      <class name="IDDAutomation.OrgNm_PROD_Test">
+        <methods>
+          <include name="teardown"/>
+          <include name="ORG_Val"/>
+        </methods>
+      </class> <!-- IDDAutomation.OrgNm_PROD_Test -->
+      <class name="IDDAutomation.partyNm_PROD_Test">
+        <methods>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- IDDAutomation.partyNm_PROD_Test -->
+    </classes>
+  </test> <!-- PROD_ORG(failed) -->
+</suite> <!-- Failed suite [Partyvalidation] -->

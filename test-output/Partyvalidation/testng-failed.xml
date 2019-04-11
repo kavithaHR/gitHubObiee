@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Partyvalidation]">
+  <listeners>
+    <listener class-name="IDDAutomation.listeners"/>
+    <listener class-name="baseclass.ExtentTestNGIReporterListener"/>
+  </listeners>
+  <test name="PARTY_PARTY(failed)">
+    <classes>
+      <class name="IDDAutomation.partyNm_NCS_Test">
+        <methods>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- IDDAutomation.partyNm_NCS_Test -->
+      <class name="IDDAutomation.partyNm_DIR_Test">
+        <methods>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- IDDAutomation.partyNm_DIR_Test -->
+      <class name="IDDAutomation.partyNm_Party_Test">
+        <methods>
+          <include name="AGN_Val"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- IDDAutomation.partyNm_Party_Test -->
+      <class name="IDDAutomation.partyNm_AGN_Test">
+        <methods>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- IDDAutomation.partyNm_AGN_Test -->
+      <class name="IDDAutomation.partyNm_MGS_Test">
+        <methods>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- IDDAutomation.partyNm_MGS_Test -->
+    </classes>
+  </test> <!-- PARTY_PARTY(failed) -->
+</suite> <!-- Failed suite [Partyvalidation] -->

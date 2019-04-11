@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Orgvalidation_DIR]">
+  <listeners>
+    <listener class-name="IDDAutomation.listeners"/>
+    <listener class-name="baseclass.ExtentTestNGIReporterListener"/>
+  </listeners>
+  <test name="dataattributes_AGN(failed)">
+    <classes>
+      <class name="IDDAutomation.dataAttributesTest">
+        <methods>
+          <include name="dataAttrVal_AGN"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- IDDAutomation.dataAttributesTest -->
+    </classes>
+  </test> <!-- dataattributes_AGN(failed) -->
+</suite> <!-- Failed suite [Orgvalidation_DIR] -->

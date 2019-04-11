@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Orgvalidation]">
+  <listeners>
+    <listener class-name="IDDAutomation.listeners"/>
+    <listener class-name="baseclass.ExtentTestNGIReporterListener"/>
+  </listeners>
+  <test name="dataattributes_AGN(failed)">
+    <classes>
+      <class name="IDDAutomation.IDDSelectionTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="teardown"/>
+          <include name="teardown"/>
+          <include name="teardown"/>
+          <include name="teardown"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- IDDAutomation.IDDSelectionTest -->
+      <class name="IDDAutomation.QueriesTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="teardown"/>
+          <include name="teardown"/>
+          <include name="teardown"/>
+          <include name="teardown"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- IDDAutomation.QueriesTest -->
+      <class name="IDDAutomation.dataAttributesTest">
+        <methods>
+          <include name="dataAttrVal_AGN"/>
+          <include name="teardown"/>
+          <include name="teardown"/>
+          <include name="teardown"/>
+          <include name="teardown"/>
+          <include name="teardown"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- IDDAutomation.dataAttributesTest -->
+      <class name="IDDAutomation.xrefTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="teardown"/>
+          <include name="teardown"/>
+          <include name="teardown"/>
+          <include name="teardown"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- IDDAutomation.xrefTest -->
+      <class name="IDDAutomation.HistoryTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="teardown"/>
+          <include name="teardown"/>
+          <include name="teardown"/>
+          <include name="teardown"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- IDDAutomation.HistoryTest -->
+      <class name="IDDAutomation.OrgsearchTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="teardown"/>
+          <include name="teardown"/>
+          <include name="teardown"/>
+          <include name="teardown"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- IDDAutomation.OrgsearchTest -->
+      <class name="IDDAutomation.loginTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="teardown"/>
+          <include name="teardown"/>
+          <include name="teardown"/>
+          <include name="teardown"/>
+          <include name="teardown"/>
+          <include name="initialize"/>
+          <include name="initialize"/>
+          <include name="initialize"/>
+          <include name="initialize"/>
+          <include name="initialize"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- IDDAutomation.loginTest -->
+    </classes>
+  </test> <!-- dataattributes_AGN(failed) -->
+</suite> <!-- Failed suite [Orgvalidation] -->

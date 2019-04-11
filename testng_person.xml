@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Partyvalidation">
+
+<listeners>
+	<listener class-name="IDDAutomation.listeners"/>
+	<listener class-name="baseclass.ExtentTestNGIReporterListener"/>
+</listeners>
+
+ <test  name="PARTY_DIR">
+    <classes>
+      <class name="IDDAutomation.partyNm_DIR_Test"/>
+       </classes>
+       </test>
+       
+     <test  name="PARTY_AGN">
+    <classes>
+      <class name="IDDAutomation.partyNm_AGN_Test"/>
+       </classes>
+       </test>   
+       
+        <test  name="PARTY_MGS">
+    <classes>
+      <class name="IDDAutomation.partyNm_MGS_Test"/>
+       </classes>
+       </test>
+       
+      <test  name="PARTY_NCS">
+    <classes>
+      <class name="IDDAutomation.partyNm_NCS_Test"/>
+       </classes>
+       </test> 
+       
+       <test  name="PARTY_PARTY">
+    <classes>
+      <class name="IDDAutomation.partyNm_Party_Test"/>
+       </classes>
+       </test>
+       
+    
+      
+      </suite> 
+      
+      
+      
+      
+     
+      

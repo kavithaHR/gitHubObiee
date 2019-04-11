@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Orgvalidation">
+
+<listeners>
+	<listener class-name="IDDAutomation.listeners"/>
+	<listener class-name="baseclass.ExtentTestNGIReporterListener"/>
+</listeners>
+
+ <test  name="ORG_DIR">
+    <classes>
+      <class name="IDDAutomation.OrgNm_DIR_Test"/>
+       </classes>
+       </test>
+       
+     <test  name="ORG_AGN">
+    <classes>
+      <class name="IDDAutomation.OrgNm_AGN_Test"/>
+       </classes>
+       </test>   
+       
+        <test  name="ORG_MGS">
+    <classes>
+      <class name="IDDAutomation.OrgNm_MGS_Test"/>
+       </classes>
+       </test>
+       
+      <test  name="ORG_NCS">
+    <classes>
+      <class name="IDDAutomation.OrgNm_NCS_Test"/>
+       </classes>
+       </test> 
+       
+       <test  name="ORG_PARTY">
+    <classes>
+      <class name="IDDAutomation.OrgNm_Party_Test"/>
+       </classes>
+       </test>
+       
+      <test  name="GROUP_NM">
+    <classes>
+      <class name="IDDAutomation.GroupName_Test"/>
+       </classes>
+       </test>
+       
+      
+      </suite> 
+      
+      
+      
+      
+     
+      

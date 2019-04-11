@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Partyvalidation">
+
+<listeners>
+	<listener class-name="IDDAutomation.listeners"/>
+	<listener class-name="baseclass.ExtentTestNGIReporterListener"/>
+</listeners>
+
+ <test  name="PROD_ORG">
+    <classes>
+      <class name="IDDAutomation.OrgNm_PROD_Test"/>
+       </classes>
+       </test>
+       
+     <test  name="PROD_PARTY">
+    <classes>
+      <class name="IDDAutomation.partyNm_PROD_Test"/>
+       </classes>
+       </test>   
+       
+        </suite> 
+      
+      
+      
+      
+     
+      

@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Orgvalidation">
+
+<listeners>
+	<listener class-name="IDDAutomation.listeners"/>
+	<listener class-name="baseclass.ExtentTestNGIReporterListener"/>
+</listeners>
+
+ <test  name="Login_DIR">
+    <classes>
+      <class name="IDDAutomation.loginTest"/>
+       </classes>
+       </test>
+       
+      <test  name="IDDSelection_DIR">   
+       <classes>
+      <class name="IDDAutomation.IDDSelectionTest"/>
+       <methods>
+       <include name="IDDvalidation_DIR"/>
+       </methods>
+       </classes>
+      </test>
+      
+        <test  name="Queries_DIR">   
+       <classes>
+      <class name="IDDAutomation.QueriesTest"/>
+       <methods>
+       <include name="QueriesValidation_DIR"/>
+       </methods>
+       </classes>
+      </test>
+      
+        <test  name="orgsearch_DIR">   
+       <classes>
+      <class name="IDDAutomation.OrgsearchTest"/>
+      <methods>
+       <include name="OrgSearchValidation_DIR"/>
+       </methods>
+       </classes>
+      </test>
+      
+        <test  name="dataAttributes_DIR">   
+       <classes>
+      <class name="IDDAutomation.dataAttributesTest"/>
+      <methods>
+       <include name="dataAttrVal_DIR"/>
+       </methods>
+       </classes>
+      </test>
+      
+        <test  name="xref_DIR">   
+       <classes>
+      <class name="IDDAutomation.xrefTest"/>
+      <methods>
+       <include name="xrefVal_DIR"/>
+       </methods>
+       </classes>
+      </test>
+      
+        <test  name="history_DIR">   
+       <classes>
+      <class name="IDDAutomation.HistoryTest"/>
+      <methods>
+       <include name="HistoryVal_DIR"/>
+       </methods>
+       </classes>
+   </test>
+
+
+
+  
+   <test  name="Login_AGN">
+    <classes>
+      <class name="IDDAutomation.loginTest"/>
+       </classes>
+       </test>
+       
+      <test  name="IDDSelection_AGN">   
+       <classes>
+      <class name="IDDAutomation.IDDSelectionTest"/>
+       <methods>
+       <include name="IDDvalidation_AGN"/>
+       </methods>
+       </classes>
+      </test>
+      
+        <test  name="Queries_AGN">   
+       <classes>
+      <class name="IDDAutomation.QueriesTest"/>
+       <methods>
+       <include name="QueriesValidation_AGN"/>
+       </methods>
+       </classes>
+      </test>
+      
+   <test  name="OrgSearch_AGN">   
+       <classes>
+      <class name="IDDAutomation.OrgsearchTest"/>
+       <methods>
+       <include name="OrgSearchValidation_AGN"/>
+       </methods>
+       </classes>
+      </test>
+
+    <test  name="xref_AGN">   
+       <classes>
+      <class name="IDDAutomation.xrefTest"/>
+       <methods>
+       <include name="xrefVal_AGN"/>
+       </methods>
+       </classes>
+      </test>
+
+  <test  name="History_AGN">   
+       <classes>
+      <class name="IDDAutomation.HistoryTest"/>
+       <methods>
+       <include name="HistoryVal_AGN"/>
+       </methods>
+       </classes>
+      </test>
+      
+<test  name="dataattributes_AGN">   
+       <classes>
+      <class name="IDDAutomation.dataAttributesTest"/>
+       <methods>
+       <include name="dataAttrVal_AGN"/>
+       </methods>
+       </classes>
+      </test>
+      
+
+ <test  name="Login_NCS">
+    <classes>
+      <class name="IDDAutomation.loginTest"/>
+       </classes>
+       </test>
+      
+       
+     
+      <test  name="IDDSelection_NCS">   
+       <classes>
+      <class name="IDDAutomation.IDDSelectionTest"/>
+       <methods>
+       <include name="IDDvalidation_NCS"/>
+       </methods>
+       </classes>
+      </test>
+      
+      
+        <test  name="Queries_NCS">   
+       <classes>
+      <class name="IDDAutomation.QueriesTest"/>
+       <methods>
+       <include name="QueriesValidation_NCS"/>
+       </methods>
+       </classes>
+      </test>
+    
+      
+   <test  name="OrgSearch_NCS">   
+       <classes>
+      <class name="IDDAutomation.OrgsearchTest"/>
+       <methods>
+       <include name="OrgSearchValidation_NCS"/>
+       </methods>
+       </classes>
+      </test>
+    
+
+    <test  name="xref_NCS">   
+       <classes>
+      <class name="IDDAutomation.xrefTest"/>
+       <methods>
+       <include name="xrefVal_NCS"/>
+       </methods>
+       </classes>
+      </test>
+       
+
+  <test  name="History_NCS">   
+       <classes>
+      <class name="IDDAutomation.HistoryTest"/>
+       <methods>
+       <include name="HistoryVal_NCS"/>
+       </methods>
+       </classes>
+      </test>
+       
+   
+<test  name="dataattributes_NCS">   
+       <classes>
+      <class name="IDDAutomation.dataAttributesTest"/>
+       <methods>
+       <include name="dataAttrVal_NCS"/>
+       </methods>
+       </classes>
+      </test>
+   
+  
+   <test  name="Login_MGS">
+    <classes>
+      <class name="IDDAutomation.loginTest"/>
+       </classes>
+       </test>
+      
+       
+      
+      <test  name="IDDSelection_MGS">   
+       <classes>
+      <class name="IDDAutomation.IDDSelectionTest"/>
+       <methods>
+       <include name="IDDvalidation_MGS"/>
+       </methods>
+       </classes>
+      </test>
+     
+     
+        <test  name="Queries_MGS">   
+       <classes>
+      <class name="IDDAutomation.QueriesTest"/>
+       <methods>
+       <include name="QueriesValidation_MGS"/>
+       </methods>
+       </classes>
+      </test>
+    
+      
+   <test  name="OrgSearch_MGS">   
+       <classes>
+      <class name="IDDAutomation.OrgsearchTest"/>
+       <methods>
+       <include name="OrgSearchValidation_MGS"/>
+       </methods>
+       </classes>
+      </test>
+    
+
+    <test  name="xref_MGS">   
+       <classes>
+      <class name="IDDAutomation.xrefTest"/>
+       <methods>
+       <include name="xrefVal_MGS"/>
+       </methods>
+       </classes>
+      </test>
+       
+
+  <test  name="History_MGS">   
+       <classes>
+      <class name="IDDAutomation.HistoryTest"/>
+       <methods>
+       <include name="HistoryVal_MGS"/>
+       </methods>
+       </classes>
+      </test>
+       
+   
+<test  name="dataattributes_MGS">   
+       <classes>
+      <class name="IDDAutomation.dataAttributesTest"/>
+       <methods>
+       <include name="dataAttrVal_MGS"/>
+       </methods>
+       </classes>
+      </test>
+
+  <test  name="Login_PARTY">
+    <classes>
+      <class name="IDDAutomation.loginTest"/>
+       </classes>
+       </test>
+      
+       
+      
+      <test  name="IDDSelection_PARTY">   
+       <classes>
+      <class name="IDDAutomation.IDDSelectionTest"/>
+       <methods>
+       <include name="IDDvalidation_PARTY"/>
+       </methods>
+       </classes>
+      </test>
+     
+     
+        <test  name="Queries_PARTY">   
+       <classes>
+      <class name="IDDAutomation.QueriesTest"/>
+       <methods>
+       <include name="QueriesValidation_PARTY"/>
+       </methods>
+       </classes>
+      </test>
+    
+      
+   <test  name="OrgSearch_PARTY">   
+       <classes>
+      <class name="IDDAutomation.OrgsearchTest"/>
+       <methods>
+       <include name="OrgSearchValidation_PARTY"/>
+       </methods>
+       </classes>
+      </test>
+    
+
+    <test  name="xref_PARTY">   
+       <classes>
+      <class name="IDDAutomation.xrefTest"/>
+       <methods>
+       <include name="xrefVal_PARTY"/>
+       </methods>
+       </classes>
+      </test>
+       
+
+  <test  name="History_PARTY">   
+       <classes>
+      <class name="IDDAutomation.HistoryTest"/>
+       <methods>
+       <include name="HistoryVal_PARTY"/>
+       </methods>
+       </classes>
+      </test>
+       
+   
+<test  name="dataattributes_PARTY">   
+       <classes>
+      <class name="IDDAutomation.dataAttributesTest"/>
+       <methods>
+       <include name="dataAttrVal_PARTY"/>
+       </methods>
+       </classes>
+      </test>
+      
+ <test  name="Login_PARTY_GROUP">
+    <classes>
+      <class name="IDDAutomation.loginTest"/>
+       </classes>
+       </test>
+      
+       
+      
+      <test  name="IDDSelection_PARTY_GROUP">   
+       <classes>
+      <class name="IDDAutomation.IDDSelectionTest"/>
+       <methods>
+       <include name="IDDvalidation_PARTY_GROUP"/>
+       </methods>
+       </classes>
+      </test>
+     
+      
+        <test  name="Queries_PARTY_GROUP">   
+       <classes>
+      <class name="IDDAutomation.QueriesTest"/>
+       <methods>
+       <include name="QueriesValidation_PARTY_GROUP"/>
+       </methods>
+       </classes>
+      </test>
+   
+   <test  name="OrgSearch_PARTY_GROUP">   
+       <classes>
+      <class name="IDDAutomation.OrgsearchTest"/>
+       <methods>
+       <include name="OrgSearchValidation_PARTY_GROUP"/>
+       </methods>
+       </classes>
+      </test>
+     
+      
+
+    <test  name="xref_PARTY_GROUP">   
+       <classes>
+      <class name="IDDAutomation.xrefTest"/>
+       <methods>
+       <include name="xrefVal_PARTY_GROUP"/>
+       </methods>
+       </classes>
+      </test>
+    
+
+  <test  name="History_PARTY_GROUP">   
+       <classes>
+      <class name="IDDAutomation.HistoryTest"/>
+       <methods>
+       <include name="HistoryVal_PARTY_GROUP"/>
+       </methods>
+       </classes>
+      </test>
+     
+   
+<test  name="dataattributes_PARTY_GROUP">   
+       <classes>
+      <class name="IDDAutomation.dataAttributesTest"/>
+       <methods>
+       <include name="dataAttrVal_PARTY_GROUP"/>
+       </methods>
+       </classes>
+      </test>
+
+      
+      </suite> 
+      
+      
+      
+      
+     
+      

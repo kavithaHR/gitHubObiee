@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="IDDAutomation.listeners"/>
+    <listener class-name="baseclass.ExtentTestNGIReporterListener"/>
+  </listeners>
+  <test name="dataAttributes(failed)">
+    <classes>
+      <class name="IDDAutomation.QueriesTest">
+        <methods>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- IDDAutomation.QueriesTest -->
+      <class name="IDDAutomation.dataAttributesTest">
+        <methods>
+          <include name="dataAttrVal"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- IDDAutomation.dataAttributesTest -->
+      <class name="IDDAutomation.HistoryTest">
+        <methods>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- IDDAutomation.HistoryTest -->
+      <class name="IDDAutomation.open_heirarchyTest">
+        <methods>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- IDDAutomation.open_heirarchyTest -->
+      <class name="IDDAutomation.xrefTest">
+        <methods>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- IDDAutomation.xrefTest -->
+      <class name="IDDAutomation.loginTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- IDDAutomation.loginTest -->
+      <class name="IDDAutomation.OrgsearchTest">
+        <methods>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- IDDAutomation.OrgsearchTest -->
+      <class name="IDDAutomation.IDDSelectionTest">
+        <methods>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- IDDAutomation.IDDSelectionTest -->
+    </classes>
+  </test> <!-- dataAttributes(failed) -->
+</suite> <!-- Failed suite [Suite] -->
